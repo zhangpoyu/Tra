@@ -1,0 +1,2388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="poyu:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="410d8e64-7b0b-4eb0-8e80-99f86202f28d" name="Default Changelist" comment="车辆违章处理">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5796dd98-4a0c-4186-930d-70d61851b212.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_4__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencv_windows_x86_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencv_windows_x86_64__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/aside.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/badge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/breadcrumb-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/button-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/carousel-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/cascader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/checkbox-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/checkbox-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/col.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/collapse-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/collapse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/color-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/date-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/display.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/dropdown-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/dropdown-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/form-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/input-number.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/loading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/menu-item-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/menu-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/message-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/notification.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/option-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/option.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/popover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/popper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/progress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/radio-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/radio-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/radio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/rate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/select-dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/submenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/tab-pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/table-column.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/time-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/time-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/transfer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/assets/theme/element-#0b0a3e/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/Member.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/LastDone.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/License.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/LoginManager.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/LoginSupermanager.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/LoginUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/Member.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/Owner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/unrule/UnruleRequest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/ExecuteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/License.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/LicenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/LicenseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/ManagerLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/ManagerLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/ManagerLoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/OwnerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/PageQueryParamDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/PageResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/SuperManagerLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/SuperManagerLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/SuperManagerLoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/USerLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/UnruleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/UnruleRequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/UnruleRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/unrule/UserLoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/user/ExecuteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/user/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/user/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/user/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/user/PageQueryParamDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/user/PageResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/example/ExecuteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/example/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/example/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/example/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/example/MemberTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/example/PageQueryParamDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/example/PageResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/AppTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/MemberTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=1116799314,1032542757&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=2066124221,467229161&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=2196355789,490702533&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=3112126935,1066506839&amp;fm=26&amp;gp=0 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=3112126935,1066506839&amp;fm=26&amp;gp=0 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=3112126935,1066506839&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=3328600405,1392471287&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=3496121083,871802299&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=3839401046,751054539&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=3992436186,2383003658&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=869880361,393161076&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/u=888365526,2802029916&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/下载 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1/下载.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/Info.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/baidu_image/test9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/car3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/e.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/A88731.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/AB4444.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/京CX8888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/冀FA3215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/川C28888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/沪A51V39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/沪AGH092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/沪AP0910.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/沪J32500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/沪K62933.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津AHP676.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津DTG667.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津E14579.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津E22602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津E24494.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津E28437.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津G68991.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津H65817.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津KNG518.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津LS2999.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津MJY929.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津MN0888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津NRL118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/津RB7992.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/浙A88888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/浙B7C289.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/浙F397C0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/浙G70000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/浙GZB388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/浙GZJ021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A05H22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A07G31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A0PC37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A0PQ76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A2991D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A31Y83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A3685C.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A3MA06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A53U19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A5RM87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A97971.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A9NU97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘A9YU86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘AA8516.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘AED855.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘AL8387.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘AT1Y68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘AT3597.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘AT8781.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘ATL269.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘AYN355.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/湘GR0L16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A00T45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A09T87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A1T235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A22T43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A2F56D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A45277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A80003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A80375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A85501.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A85890.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖A87271.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AA361D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AH8331.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AJH155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AK169H.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AL025S.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AS3165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AT789S.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖ATH859.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AUB816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖AX688A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖BBC666.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖EZM618.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖F71646.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖M12288.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖M69311.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖P77222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖Q06417.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖Q0686学.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖Q18632.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖Q19917.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖Q80197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/皖QA2825.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/粤B0K999.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏A0CP56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏A6E176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏B551QV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏B577CU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏BGG522.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏BU5838.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏DLA031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/苏E2Y256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/豫K91239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/豫S33909.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/赣A82F36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/辽B99999.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/辽BMW005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/辽C33333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/辽PE9218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/闽HB1508.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/鲁A88888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/鲁JRW350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/鲁KK5555.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/鲁LD9016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/鲁Y44748.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/general_test/黑A1R272.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/u=1506220780,3171071931&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/u=1823954515,369383525&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/u=2312899599,594687693&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/u=3219167787,2242762137&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/u=3414842422,82952944&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/u=3434548965,4185460677&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/u=3636175829,2000256054&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/wrrysyf_8200003684557053214.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/搜狗日语输入法_157@2116844.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/a/违章拍照的4大谣传 坑了不少司机..-.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/images/chars_recognise_huAGH092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/images/plate_recognize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/A1R272.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/test18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/test19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/test2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/test7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/test9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/1/two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/A85890.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/chars_identify_E.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/chars_recognise_huAGH092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/chars_recognise_suEUK722.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/chars_segment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/core_func_blue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/core_func_yellow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/plate_detect.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/plate_judge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/plate_locate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/plate_recognize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/test_image/test4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/捕获.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/model/ann.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/model/svm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/Property/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/CharsIdentify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/CharsRecognise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/CharsSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/CoreFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/Features.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/PlateDetect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/PlateJudge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/PlateLocate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/core/SVMCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/util/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/util/EasyPrTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/image/processing/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/Sql语句.sqf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/md.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_photo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_t_car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_t_managerlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_t_photo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_t_supermanagerlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_t_unrule.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_t_userlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/ASQL/traffic_t_userpay.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/constants/AppConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/constants/AppStaticData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/CarDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/CharsSegmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/ManagerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/PhotoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/RequsetInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/UnruleCarDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/UserUnruleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/impl/CarDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/impl/ManagerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/impl/PhotoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/impl/RequestInfoimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/impl/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/dao/impl/UnruleCarDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/entity/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/entity/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/entity/RequestInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/entity/UnruleCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/CarInfoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/CarServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/Picture/DownLoadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/Picture/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/Picture/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/Picture/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/UnRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/UnruleCarServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/UnruleDealServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/email/SendEmailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/email/UserSendEmailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/unrule_deal/UnruleDealServle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/unrule_deal/UnruleInputServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/user/CarReviseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/user/CarUnruleQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/user/ViolationPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/servlet/user/pay/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/test/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/test/ServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/util/EmailSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/util/JDBCHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/util/KeyedMd5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/util/String_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/come/poyu/util/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/IndexInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/h2_register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/h4_UserInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/h5_superManager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/h7_Voilation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/manager_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/css/user_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/images/a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/images/admin-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/H1/images/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/IndexInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Js/j1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javacpp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mail-1.5.0-b01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opencv-310.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opencv-windows-x86_64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opencv.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opencv_java310.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/common/email/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/common/email/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/common/user/userServer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/carInfo/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/carInfo/CarInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/carInfo/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/carInfo/UnruleInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/carInfo/Unrule_deal/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/carInfo/Unrule_deal/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/carInfo/Unrule_deal/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/email/SenEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/picture/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/picture/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/picture/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/picture/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/register/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/register/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/supManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/manager/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/css/h1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/css/h2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/css/h4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/css/h5_Manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/css/h7_Unrule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/Unrule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/log1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/log2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/manager/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/superM.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/info/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/1/user/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/car/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/car/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/car/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/superManager/car/Voilation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/CarUnruleQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/ChangeLicense.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/ChangeLicenseRequest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/Ticket_Requestdeal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/UerViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/UserViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/ViolationPaymented.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/invisible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/pay/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/visible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarClear.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/info/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/info/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/my.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ImageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/poyu.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Property/PropertiesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/Property/PropertiesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CharsIdentify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CharsRecognise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CharsSegment$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CharsSegment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CoreFunc$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CoreFunc$Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CoreFunc$Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/CoreFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/Features.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/PlateDetect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/PlateJudge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/PlateLocate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/core/SVMCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/util/Convert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/util/EasyPrTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/image/processing/util/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/Sql语句.sqf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/md.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_photo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_t_car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_t_managerlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_t_photo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_t_supermanagerlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_t_unrule.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_t_userlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/ASQL/traffic_t_userpay.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/constants/AppConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/constants/AppStaticData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/CarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/CharsSegmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/ManagerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/PhotoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/RequsetInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/UnruleCarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/UserUnruleInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/impl/CarDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/impl/ManagerDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/impl/PhotoDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/impl/RequestInfoimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/impl/RoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/dao/impl/UnruleCarDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/entity/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/entity/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/entity/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/entity/Photo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/entity/RequestInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/entity/UnruleCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/CarInfoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/CarServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/Picture/DownLoadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/Picture/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/Picture/TestServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/Picture/UploadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/RegisterServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/UnRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/UnruleCarServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/UnruleDealServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/email/SendEmailServlet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/email/SendEmailServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/email/UserSendEmailServlet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/email/UserSendEmailServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/unrule_deal/UnruleDealServle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/unrule_deal/UnruleInputServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/user/CarReviseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/user/CarUnruleQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/user/ViolationPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/servlet/user/pay/Pay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/test/JDBCTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/test/ServletTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/util/EmailSend$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/util/EmailSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/util/JDBCHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/util/KeyedMd5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/util/String_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/come/poyu/util/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/IndexInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/h2_register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/h4_UserInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/h5_superManager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/h7_Voilation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/manager_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/css/user_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/images/a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/images/admin-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/H1/images/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/IndexInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/Js/j1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/javacpp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/mail-1.5.0-b01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/opencv-310.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/opencv-windows-x86_64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/opencv.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/lib/opencv_java310.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/common/email/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/common/email/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/common/user/userServer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/carInfo/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/carInfo/CarInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/carInfo/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/carInfo/UnruleInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/carInfo/Unrule_deal/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/carInfo/Unrule_deal/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/carInfo/Unrule_deal/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/email/SenEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/picture/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/picture/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/picture/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/picture/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/register/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/register/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/supManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/manager/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/css/h1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/css/h2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/css/h4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/css/h5_Manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/css/h7_Unrule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/Unrule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/log1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/log2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/manager/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/superM.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/info/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/1/user/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/car/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/car/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/car/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/superManager/car/Voilation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/CarUnruleQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/ChangeLicense.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/ChangeLicenseRequest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/Ticket_Requestdeal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/UerViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/UserViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/ViolationPaymented.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/invisible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/pay/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/carOperation/visible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/info/CarClear.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/info/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/info/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/jsp/user/info/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/webapp/my.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/ImageDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/IndexInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/h2_register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/h4_UserInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/h5_superManager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/h7_Voilation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/manager_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/css/user_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/images/a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/images/admin-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/H1/images/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/IndexInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/Js/j1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/META-INF/poyu.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/Property/PropertiesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/Property/PropertiesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CharsIdentify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CharsRecognise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CharsSegment$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CharsSegment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CoreFunc$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CoreFunc$Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CoreFunc$Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/CoreFunc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/Features.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/PlateDetect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/PlateJudge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/PlateLocate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/core/SVMCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/util/Convert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/util/EasyPrTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/image/processing/util/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/Sql语句.sqf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/md.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_photo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_t_car.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_t_managerlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_t_photo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_t_supermanagerlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_t_unrule.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_t_userlogin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/ASQL/traffic_t_userpay.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/constants/AppConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/constants/AppStaticData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/CarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/CharsSegmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/ManagerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/PhotoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/RequsetInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/UnruleCarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/UserUnruleInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/impl/CarDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/impl/ManagerDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/impl/PhotoDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/impl/RequestInfoimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/impl/RoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/dao/impl/UnruleCarDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/entity/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/entity/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/entity/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/entity/Photo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/entity/RequestInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/entity/UnruleCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/CarInfoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/CarServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/Picture/DownLoadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/Picture/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/Picture/TestServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/Picture/UploadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/RegisterServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/UnRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/UnruleCarServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/UnruleDealServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/email/SendEmailServlet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/email/SendEmailServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/email/UserSendEmailServlet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/email/UserSendEmailServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/unrule_deal/UnruleDealServle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/unrule_deal/UnruleInputServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/user/CarReviseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/user/CarUnruleQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/user/ViolationPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/servlet/user/pay/Pay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/test/JDBCTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/test/ServletTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/util/EmailSend$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/util/EmailSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/util/JDBCHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/util/KeyedMd5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/util/String_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/come/poyu/util/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/db_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/IndexInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/h2_register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/h4_UserInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/h5_superManager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/h7_Voilation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/manager_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/css/user_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/images/a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/images/admin-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/H1/images/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/IndexInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/Js/j1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/javacpp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/mail-1.5.0-b01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/opencv-310.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/opencv-windows-x86_64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/opencv.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/lib/opencv_java310.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/common/email/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/common/email/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/common/user/userServer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/carInfo/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/carInfo/CarInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/carInfo/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/carInfo/UnruleInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/carInfo/Unrule_deal/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/carInfo/Unrule_deal/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/carInfo/Unrule_deal/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/email/SenEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/picture/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/picture/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/picture/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/picture/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/register/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/register/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/supManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/manager/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/css/h1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/css/h2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/css/h4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/css/h5_Manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/css/h7_Unrule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/Unrule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/log1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/log2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/manager/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/superM.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/info/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/1/user/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/car/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/car/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/car/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/superManager/car/Voilation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/CarUnruleQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/ChangeLicense.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/ChangeLicenseRequest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/Ticket_Requestdeal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/UerViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/UserViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/ViolationPaymented.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/invisible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/pay/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/carOperation/visible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/info/CarClear.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/info/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/info/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/jsp/user/info/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/main/webapp/my.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/test/ImageDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/classes/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/activation-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/javacpp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/mail-1.5.0-b01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/opencv-310.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/opencv-windows-x86_64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/opencv.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/lib/opencv_java310.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/common/email/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/common/email/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/common/user/userServer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/carInfo/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/carInfo/CarInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/carInfo/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/carInfo/UnruleInfoQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/carInfo/Unrule_deal/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/carInfo/Unrule_deal/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/carInfo/Unrule_deal/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/email/SenEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/picture/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/picture/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/picture/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/picture/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/register/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/register/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/supManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/manager/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/css/h1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/css/h2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/css/h3_CarInf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/css/h4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/css/h5_Manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/css/h6_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/css/h7_Unrule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/Unrule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/log1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/log2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/manager/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/superM.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/UnRule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/info/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/revise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/show_img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/1/user/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/car/CarInf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/car/Content.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/car/Manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/superManager/car/Voilation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/CarUnruleQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/ChangeLicense.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/ChangeLicenseRequest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/Ticket_Requestdeal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/Ticket_deal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/UerViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/UserViolateInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/ViolationPaymented.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/invisible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/pay/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/carOperation/visible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/info/CarClear.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/info/CarRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/info/CarRevise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/info/CarRevised.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/info/CarSuc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/info/ok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/jsp/user/info/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/poyu/my.ico" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - traffic@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - traffic@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - traffic@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="traffic: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/come/poyu/servlet/Picture/UploadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4320">
+              <caret line="173" column="32" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/PlateDetect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/PlateLocate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/CharsRecognise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3330">
+              <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#1940#1941#0" expanded="true" />
+                <element signature="e#1990#1991#0" expanded="true" />
+                <element signature="e#2102#2103#0" expanded="true" />
+                <element signature="e#2155#2156#0" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+                <element signature="e#2465#2466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/CharsSegment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Vue Single File Component" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>res/image/Info.PNG</find>
+      <find>pages</find>
+      <find>50</find>
+      <find>暂无</find>
+      <find>scope</find>
+      <find>Owner</find>
+      <find>manager</find>
+      <find>Managerlogin</find>
+      <find>id</find>
+      <find>managerlogin</find>
+      <find>owner</find>
+      <find>Member</find>
+      <find>编辑</find>
+      <find>unrule</find>
+      <find>member</find>
+      <find>同意</find>
+      <find>unrulerequest</find>
+      <find>login_name</find>
+      <find>开通网上违章处理</find>
+      <find>formVisible</find>
+      <find>rules</find>
+      <find>formLoading</find>
+      <find>handleSubmit</find>
+      <find>handleAdd</find>
+      <find>handleEdit</find>
+      <find>form</find>
+      <find>refs</find>
+      <find>removeEventListener</find>
+      <find>disableHostCheck</find>
+      <find>你好</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>res/image/test_image/A85890.jpg</replace>
+      <replace>res/image/Info.PNG</replace>
+      <replace>res/image/test_image/1/1.PNG</replace>
+      <replace>Owner</replace>
+      <replace>45</replace>
+      <replace>scope1</replace>
+      <replace>owner</replace>
+      <replace>manager</replace>
+      <replace>managerlogin</replace>
+      <replace>Managerlogin</replace>
+      <replace>ManagerLogin</replace>
+      <replace>userlogin</replace>
+      <replace>supermanagerlogin</replace>
+      <replace>修改密码</replace>
+      <replace>unrule</replace>
+      <replace>UnruleRequest</replace>
+      <replace>同意网上处理</replace>
+      <replace>unrulerequest</replace>
+      <replace>开通</replace>
+      <replace>licensemanage</replace>
+      <replace>id</replace>
+      <replace>form</replace>
+      <replace>修改</replace>
+      <replace>form1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+    <option name="UPDATE_BRANCHES_INFO" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/come/poyu/dao/impl/RequestInfoimpl.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/unrule/UnruleRequest.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/Sql/JDBCHelper.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/License.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/LicenseController.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/unrule/LicenseController.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/unrule/License.java" />
+        <option value="$PROJECT_DIR$/admin/src/router/1.vue" />
+        <option value="$PROJECT_DIR$/admin/src/main.js" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/PageResultDTO.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/Member.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/MemberRepository.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/MemberController.java" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/License.vue" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/LoginManager.vue" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/LoginSupermanager.vue" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/LoginUser.vue" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/Owner.vue" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/UnruleRequest.vue" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/admin/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/unrule/App.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/App.java" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/Member.vue" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/unrule/PageResultDTO.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/unrule/ExecuteDTO.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/unrule/PageQueryParamDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/superManager/car/Voilation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/superManager/car/Manager.jsp" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/ExecuteDTO.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/user/PageQueryParamDTO.java" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/App.java" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/com/example/MemberTests.java" />
+        <option value="$PROJECT_DIR$/admin/src/router/index.js" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/LastDone.vue" />
+        <option value="D:/Program/python/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/Ticket_Requestdeal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/manager/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarClear.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarClear.jsp" />
+        <option value="$PROJECT_DIR$/src/come/image/processing/core/PlateLocate.java" />
+        <option value="$PROJECT_DIR$/admin/package.json" />
+        <option value="$PROJECT_DIR$/src/db_config.properties" />
+        <option value="$PROJECT_DIR$/src/come/poyu/servlet/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/come/poyu/test/test.java" />
+        <option value="$PROJECT_DIR$/admin/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/admin/config/index.js" />
+        <option value="$PROJECT_DIR$/src/come/poyu/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/admin/src/unrule/Main.vue" />
+        <option value="$PROJECT_DIR$/src/come/image/processing/core/CharsSegment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/Maven" />
+        <option name="userSettingsFile" value="D:\Program Files\Maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="poyu Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="poyu Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="765" />
+    <option name="y" value="75" />
+    <option name="width" value="1400" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
+      <sortByType ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tra" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="come.poyu.dao.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2\Tra\src\main\webapp\jsp\common\email" />
+      <recent name="E:\2\Tra\demo\src\main\resources\example" />
+      <recent name="E:\2\Tra\demo\src\main\resources" />
+      <recent name="E:\Tra\res\image\test_image" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2\Tra\demo\src\test\java\com\example" />
+      <recent name="E:\2\Tra\demo\src\main\java\user" />
+      <recent name="E:\2\Tra\demo\src\main\java\com\unrule" />
+      <recent name="E:\2\Tra\demo\src\main\java\com\Owner" />
+      <recent name="E:\2\Tra\demo\src\main\java\com\owner" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="com.Sql" />
+      <recent name="come.poyu.servlet.email" />
+      <recent name="come.poyu.dao.impl" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="come.poyu.dao.impl" />
+      <recent name="come.poyu.servlet.email" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.10">
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="poyu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="come.poyu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="come.poyu.test" />
+      <option name="MAIN_CLASS_NAME" value="come.poyu.test.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="poyu (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="poyu (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unrule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.unrule.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:28080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="poyu:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Tra_6" />
+        <option name="HTTP_PORT" value="28080" />
+        <option name="JNDI_PORT" value="21099" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51086" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="poyu:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/admin/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.test" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="JUnit.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="410d8e64-7b0b-4eb0-8e80-99f86202f28d" name="Default Changelist" comment="" />
+      <created>1557807344555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557807344555</updated>
+      <workItem from="1557807346385" duration="13330000" />
+      <workItem from="1557831786467" duration="1681000" />
+      <workItem from="1557887243299" duration="7286000" />
+      <workItem from="1557918808900" duration="2381000" />
+      <workItem from="1557929150789" duration="1588000" />
+      <workItem from="1558325707431" duration="358000" />
+      <workItem from="1558326368642" duration="681000" />
+      <workItem from="1558327773745" duration="2383000" />
+      <workItem from="1558330373947" duration="851000" />
+      <workItem from="1558331284357" duration="929000" />
+      <workItem from="1558332599295" duration="7425000" />
+      <workItem from="1558349124770" duration="1698000" />
+      <workItem from="1558350955585" duration="1977000" />
+      <workItem from="1558354540679" duration="566000" />
+      <workItem from="1558355740707" duration="609000" />
+      <workItem from="1558364286247" duration="2832000" />
+      <workItem from="1558445564535" duration="8895000" />
+      <workItem from="1558492430573" duration="2835000" />
+      <workItem from="1558497985769" duration="28044000" />
+      <workItem from="1558575657705" duration="45213000" />
+      <workItem from="1558680759209" duration="803000" />
+      <workItem from="1558686286280" duration="13294000" />
+      <workItem from="1558795978866" duration="1201000" />
+      <workItem from="1558865323809" duration="3963000" />
+      <workItem from="1559003568048" duration="4124000" />
+      <workItem from="1559012067505" duration="1632000" />
+      <workItem from="1559019567341" duration="1369000" />
+      <workItem from="1559097755122" duration="498000" />
+      <workItem from="1559098358607" duration="1563000" />
+      <workItem from="1559113219652" duration="5000" />
+      <workItem from="1559113245049" duration="363000" />
+      <workItem from="1559133831131" duration="2189000" />
+      <workItem from="1559521118574" duration="1690000" />
+      <workItem from="1559617318721" duration="4402000" />
+      <workItem from="1559649445694" duration="1010000" />
+      <workItem from="1559651095899" duration="17702000" />
+      <workItem from="1559802279023" duration="4345000" />
+      <workItem from="1559818655366" duration="158000" />
+      <workItem from="1559819655639" duration="5454000" />
+      <workItem from="1559831487116" duration="1764000" />
+      <workItem from="1559867700319" duration="3876000" />
+    </task>
+    <task id="LOCAL-00001" summary="车辆违章处理">
+      <created>1557818942401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557818942401</updated>
+    </task>
+    <task id="LOCAL-00002" summary="车辆违章处理">
+      <created>1557820603724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557820603724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="车辆违章处理">
+      <created>1557820754003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557820754003</updated>
+    </task>
+    <task id="LOCAL-00004" summary="车辆违章处理">
+      <created>1557835549350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557835549350</updated>
+    </task>
+    <task id="LOCAL-00005" summary="车辆违章处理">
+      <created>1557888548441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557888548441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="车辆违章处理">
+      <created>1557889812053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557889812053</updated>
+    </task>
+    <task id="LOCAL-00007" summary="车辆违章处理">
+      <created>1557889991525</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557889991526</updated>
+    </task>
+    <task id="LOCAL-00008" summary="车辆违章处理">
+      <created>1557890097013</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557890097013</updated>
+    </task>
+    <task id="LOCAL-00009" summary="车辆违章处理">
+      <created>1557890141457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557890141457</updated>
+    </task>
+    <task id="LOCAL-00010" summary="车辆违章处理">
+      <created>1557890206199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557890206199</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_testCharsRecognise - 2019.05.15 at 16h 58m 17s.xml">
+      <configuration name="test.testCharsRecognise" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testCharsRecognise - 2019.05.15 at 16h 58m 49s.xml">
+      <configuration name="test.testCharsRecognise" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testCharsRecognise - 2019.05.15 at 16h 59m 22s.xml">
+      <configuration name="test.testCharsRecognise" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.05.15 at 17h 00m 20s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testCharsRecognise - 2019.05.15 at 17h 01m 43s.xml">
+      <configuration name="test.testCharsRecognise" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testCharsRecognise - 2019.05.15 at 17h 02m 44s.xml">
+      <configuration name="test.testCharsRecognise" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTests_contextLoads - 2019.05.22 at 17h 29m 17s.xml">
+      <configuration name="AppTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTests_contextLoads - 2019.05.22 at 17h 40m 10s.xml">
+      <configuration name="AppTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberTests_test - 2019.05.24 at 17h 36m 37s.xml">
+      <configuration name="MemberTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.06.06 at 13h 45m 58s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="203125000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.5021216" side_tool="true" weight="0.23123324" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Project" order="7" sideWeight="0.49787837" visible="true" weight="0.17962466" />
+      <window_info id="DB Browser" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.6152758" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.7906648" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49731904" weight="0.7454031" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.82436264" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281471" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" sideWeight="0.49932975" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.49932975" weight="0.32956153" />
+      <window_info anchor="bottom" id="TypeScript" order="17" />
+      <window_info anchor="bottom" id="DB Execution Console" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" content_ui="combo" id="SciView" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Redis Servers" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="KodeBeagle" order="11" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.19906166" />
+      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.23123324" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.6152758" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.8359265" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49731904" weight="0.7793494" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" show_stripe_button="false" sideWeight="0.5033512" side_tool="true" weight="0.30551627" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281471" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" sideWeight="0.49932975" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.49932975" weight="0.32956153" />
+      <window_info anchor="bottom" id="TypeScript" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" content_ui="combo" id="SciView" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Redis Servers" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="KodeBeagle" order="11" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="车辆违章处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="车辆违章处理" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarSuc.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarRevised.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/Ticket_Requestdeal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/info/CarClear.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6721#6727#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/carOperation/Ticket_deal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/SVMCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/CharsIdentify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="141" column="49" lean-forward="true" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3774#3790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/CoreFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/Features.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javacpp.jar!/org/bytedeco/javacpp/annotation/ByVal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javacpp.jar!/org/bytedeco/javacpp/annotation/Namespace.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opencv.jar!/org/bytedeco/javacpp/opencv_imgproc.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3836" column="39" selection-start-line="3836" selection-start-column="39" selection-end-line="3836" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/PlateJudge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PropertiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/manager/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/manager/manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/manager/register/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/poyu/test/JDBCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/poyu/test/ServletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/poyu/util/KeyedMd5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/poyu/servlet/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" selection-start-line="34" selection-start-column="23" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/poyu/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5796dd98-4a0c-4186-930d-70d61851b212/schema/traffic/table/t_unrule">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ed3f7faf-5da0-499c-b9e1-d5756528766d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/poyu/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/pages/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/pages/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/unrule/Member.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#template#0;n#el-table-column#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/pages/Member.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/unrule/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3390">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5796dd98-4a0c-4186-930d-70d61851b212/schema/traffic/table/t_userlogin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="f7ea97f5-157d-4a44-8799-a4d0585ccea0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5796dd98-4a0c-4186-930d-70d61851b212/schema/traffic/table/t_managerlogin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="f7ea97f5-157d-4a44-8799-a4d0585ccea0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5796dd98-4a0c-4186-930d-70d61851b212/schema/traffic/table/t_supermanagerlogin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="f7ea97f5-157d-4a44-8799-a4d0585ccea0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/poyu/servlet/Picture/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="173" column="32" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/PlateDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/PlateLocate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/CharsRecognise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3330">
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/come/image/processing/core/CharsSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|poyu (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-fileupload-1.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
