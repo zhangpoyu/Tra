@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: traffic
 -- ------------------------------------------------------
--- Server version	5.7.17-log
+-- Server version	5.7.20-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -35,7 +35,7 @@ CREATE TABLE `t_managerlogin` (
 
 LOCK TABLES `t_managerlogin` WRITE;
 /*!40000 ALTER TABLE `t_managerlogin` DISABLE KEYS */;
-INSERT INTO `t_managerlogin` VALUES ('18845890651','fc89a6e3c03bbf15d016eef6276997d8'),('188458906511','fc89a6e3c03bbf15d016eef6276997d8'),('1884589065111','c20ad4d76fe97759aa27a0c99bff6710');
+INSERT INTO `t_managerlogin` VALUES ('1','c4ca4238a0b923820dcc509a6f75849b'),('12','c20ad4d76fe97759aa27a0c99bff6710'),('123456','e10adc3949ba59abbe56e057f20f883e'),('13935258688','1e3334c1cbcd4e2ed6bdffadba54a23b'),('15284642969','3c59dc048e8850243be8079a5c74d079'),('18204501160','fc89a6e3c03bbf15d016eef6276997d8'),('18845890651','fc89a6e3c03bbf15d016eef6276997d8'),('188458906511','acd6a994d595cfe659c4bd74fb481e79'),('188458906512','c4ca4238a0b923820dcc509a6f75849b'),('1888','2d1b2a5ff364606ff041650887723470'),('2','c81e728d9d4c2f636f067f89cc14862c'),('22','b6d767d2f8ed5d21a44b0e5886680cb9'),('2283867047','058395137b06eca2fe979d6eae3ffe41'),('23','37693cfc748049e45d87b8c7d8b9aacd'),('小火山','e10adc3949ba59abbe56e057f20f883e');
 /*!40000 ALTER TABLE `t_managerlogin` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-04-29 22:26:09
+-- Dump completed on 2019-06-20 22:06:20

@@ -58,12 +58,12 @@
         <div class="a">
             <a target="transfer" href="jsp/manager/email/SenEmail.jsp">发送违章信息</a><br/>
         </div>
-        <div class="a">
+      <%--  <div class="a">
             <a target="transfer" href="jsp/manager/CarRegister.jsp">车辆户籍变更</a><br/>
         </div>
         <div class="a">
             <a target="transfer" href="jsp/manager/CarRegister.jsp">销户</a><br/>
-        </div>
+        </div>--%>
     </div>
     <div id="iframe_box" class="Hui-article">
         <iframe class="iframe" name="transfer"

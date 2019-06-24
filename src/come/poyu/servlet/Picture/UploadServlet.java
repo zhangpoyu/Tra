@@ -47,7 +47,7 @@ public class UploadServlet extends HttpServlet {
         String unrule_reason = "";
         String time = "";
         Date dt = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyy-mm-dd HH:mm:ss aa");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyy-MM-dd HH:mm:ss aa");
         time = sdf.format(dt);
         List Files = new ArrayList();
         DiskFileItemFactory factory = new DiskFileItemFactory();
@@ -161,7 +161,7 @@ public class UploadServlet extends HttpServlet {
 
 @Test
     public void testCharsRecognise() {
-        String AbsolutePath = "res/image/test_image/A85890.jpg";
+        String AbsolutePath = "res/image/test_image/a.jpg";
         Mat src = imread(AbsolutePath);
         String result = null;
         PlateDetect plateDetect = new PlateDetect();

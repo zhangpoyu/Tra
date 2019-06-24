@@ -34,7 +34,7 @@
               <i class="fa fa-align-justify"></i>
             </span>
           </el-col>
-          <el-col :span="6"><span class="el-dropdown-link userinfo-inner">你好：{{userName}}<a href="http://localhost:28080/jsp/superManager/car/Manager.jsp">查看数据</a></span></el-col>
+          <el-col :span="6"><span class="el-dropdown-link userinfo-inner">你好：{{userName}}<a href="http://localhost:8080/jsp/superManager/car/Manager.jsp">查看数据</a></span></el-col>
         </el-row>
       </el-header>
       <!--中间-->

@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: poyu
@@ -6,13 +7,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<c:set var="path" value="${pageContext.request.contextPath}" scope="application"/>
+
 <html>
 <head>
     <title>全国车辆违章中心</title>
     <link rel="icon" href="my.ico" type="image/x-icon"/>
     <link rel="SHORTCUT ICON" href="my.ico" type="image/x-icon"/>
     <link rel="bookmark" href="my.ico" type="image/x-icon"/>
-    <link href="${pageContext.request.contextPath}/H1/css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="${path}/H1/css/index.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript">
         var myselect = document.getElementById("text");
         var index = myselecte.selectedIndex;

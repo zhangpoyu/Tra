@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: traffic
 -- ------------------------------------------------------
--- Server version	5.7.17-log
+-- Server version	5.7.20-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -26,11 +26,11 @@ CREATE TABLE `t_unrule` (
   `id` mediumint(8) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
   `number` varchar(45) NOT NULL,
-  `car_number` varchar(45) NOT NULL,
+  `car_number` varchar(45) DEFAULT NULL,
   `unrule_record` varchar(45) NOT NULL,
-  `unrule_reason` varchar(100) NOT NULL,
+  `unrule_reason` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `t_unrule` (
 
 LOCK TABLES `t_unrule` WRITE;
 /*!40000 ALTER TABLE `t_unrule` DISABLE KEYS */;
-INSERT INTO `t_unrule` VALUES (2,'张兴刊','18845890651','苏EUK722','5224278262313332','闯红灯');
+INSERT INTO `t_unrule` VALUES (1,'张兴刊','18845890651','沪AGH092','5224275525108299','高速公路超车'),(2,'王二','15284642969','鲁KK5555','5224277991664065','高速公路路段违停'),(3,'王二','15284642969','鲁KK5555','5224279005055728','违停'),(4,'张三','18845854892','苏EUK722','5224272192932489','开车时候吸烟'),(5,'张兴刊','18845890651','沪AGH092','5224271639517203','高速路段压线'),(6,'张兴刊','18845890651','沪AGH092','5224278439516566','高速路段停车'),(7,'李四','18204501160','黑A1R272','5224270267617569','压线');
 /*!40000 ALTER TABLE `t_unrule` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-04-29 22:26:08
+-- Dump completed on 2019-06-20 22:06:19

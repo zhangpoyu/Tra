@@ -16,27 +16,34 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `t_userlogin`
+-- Table structure for table `t_requestinfo`
 --
 
-DROP TABLE IF EXISTS `t_userlogin`;
+DROP TABLE IF EXISTS `t_requestinfo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `t_userlogin` (
-  `login_name` varchar(30) NOT NULL,
-  `login_pwd` varchar(50) NOT NULL,
-  PRIMARY KEY (`login_name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE `t_requestinfo` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `email` varchar(45) NOT NULL,
+  `car_number` varchar(45) NOT NULL,
+  `unrule_record` varchar(45) NOT NULL,
+  `content` varchar(45) NOT NULL,
+  `approval` int(11) NOT NULL,
+  `money` double NOT NULL,
+  `pointdec` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `t_userlogin`
+-- Dumping data for table `t_requestinfo`
 --
 
-LOCK TABLES `t_userlogin` WRITE;
-/*!40000 ALTER TABLE `t_userlogin` DISABLE KEYS */;
-INSERT INTO `t_userlogin` VALUES ('18845890651','fc89a6e3c03bbf15d016eef6276997d8'),('18845890651111','fc89a6e3c03bbf15d016eef6276997d8'),('张兴刊','fc89a6e3c03bbf15d016eef6276997d8');
-/*!40000 ALTER TABLE `t_userlogin` ENABLE KEYS */;
+LOCK TABLES `t_requestinfo` WRITE;
+/*!40000 ALTER TABLE `t_requestinfo` DISABLE KEYS */;
+INSERT INTO `t_requestinfo` VALUES (7,'2381150086@qq.com','沪AGH092','5224275525108299','申请',1,200,2),(9,'2381150086@qq.com','沪AGH092','5224273013063248','申请',1,200,1),(10,'2381150086@qq.com','沪AGH092','522427466161917512','请求网上处理',1,200,3);
+/*!40000 ALTER TABLE `t_requestinfo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-06-20 22:06:22
+-- Dump completed on 2019-06-20 22:06:21

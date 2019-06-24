@@ -16,27 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `t_userlogin`
+-- Table structure for table `hibernate_sequences`
 --
 
-DROP TABLE IF EXISTS `t_userlogin`;
+DROP TABLE IF EXISTS `hibernate_sequences`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `t_userlogin` (
-  `login_name` varchar(30) NOT NULL,
-  `login_pwd` varchar(50) NOT NULL,
-  PRIMARY KEY (`login_name`)
+CREATE TABLE `hibernate_sequences` (
+  `sequence_name` varchar(255) NOT NULL,
+  `sequence_next_hi_value` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`sequence_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `t_userlogin`
+-- Dumping data for table `hibernate_sequences`
 --
 
-LOCK TABLES `t_userlogin` WRITE;
-/*!40000 ALTER TABLE `t_userlogin` DISABLE KEYS */;
-INSERT INTO `t_userlogin` VALUES ('18845890651','fc89a6e3c03bbf15d016eef6276997d8'),('18845890651111','fc89a6e3c03bbf15d016eef6276997d8'),('张兴刊','fc89a6e3c03bbf15d016eef6276997d8');
-/*!40000 ALTER TABLE `t_userlogin` ENABLE KEYS */;
+LOCK TABLES `hibernate_sequences` WRITE;
+/*!40000 ALTER TABLE `hibernate_sequences` DISABLE KEYS */;
+INSERT INTO `hibernate_sequences` VALUES ('张兴刊',3223);
+/*!40000 ALTER TABLE `hibernate_sequences` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-06-20 22:06:22
+-- Dump completed on 2019-06-20 22:06:20

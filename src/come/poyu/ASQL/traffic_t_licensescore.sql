@@ -16,27 +16,31 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `t_userlogin`
+-- Table structure for table `t_licensescore`
 --
 
-DROP TABLE IF EXISTS `t_userlogin`;
+DROP TABLE IF EXISTS `t_licensescore`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `t_userlogin` (
-  `login_name` varchar(30) NOT NULL,
-  `login_pwd` varchar(50) NOT NULL,
-  PRIMARY KEY (`login_name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE `t_licensescore` (
+  `id` mediumint(8) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) NOT NULL,
+  `id_card` varchar(45) NOT NULL,
+  `licensenumber` varchar(45) NOT NULL,
+  `score` varchar(45) NOT NULL,
+  `remarks` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `t_userlogin`
+-- Dumping data for table `t_licensescore`
 --
 
-LOCK TABLES `t_userlogin` WRITE;
-/*!40000 ALTER TABLE `t_userlogin` DISABLE KEYS */;
-INSERT INTO `t_userlogin` VALUES ('18845890651','fc89a6e3c03bbf15d016eef6276997d8'),('18845890651111','fc89a6e3c03bbf15d016eef6276997d8'),('张兴刊','fc89a6e3c03bbf15d016eef6276997d8');
-/*!40000 ALTER TABLE `t_userlogin` ENABLE KEYS */;
+LOCK TABLES `t_licensescore` WRITE;
+/*!40000 ALTER TABLE `t_licensescore` DISABLE KEYS */;
+INSERT INTO `t_licensescore` VALUES (1,'张兴刊','522427199601197555','230102750147','12','首次录入');
+/*!40000 ALTER TABLE `t_licensescore` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-06-20 22:06:22
+-- Dump completed on 2019-06-20 22:06:21

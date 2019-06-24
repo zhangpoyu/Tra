@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: traffic
 -- ------------------------------------------------------
--- Server version	5.7.17-log
+-- Server version	5.7.20-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -33,7 +33,7 @@ CREATE TABLE `t_car` (
   `car_style` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `car_number_UNIQUE` (`car_number`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `t_car` (
 
 LOCK TABLES `t_car` WRITE;
 /*!40000 ALTER TABLE `t_car` DISABLE KEYS */;
-INSERT INTO `t_car` VALUES (1,'张兴刊','18845890651','522427199601197555','2381150086@qq.com','苏EUK722','长安','皮卡'),(8,'张兴刊','18845890651','522427199601197555','2381150086@qq.com','贵FMB036','长安','皮卡');
+INSERT INTO `t_car` VALUES (1,'张兴刊','18845890651','522427199601197555','2381150086@qq.com','沪AGH092','宝马','跑车'),(2,'李四','18204501160','522427199601197666','1502415906@qq.com','黑A1R272','奔驰','轿车'),(3,'王二','15284642969','522427197502137545','1478952126@qq.com','鲁KK5555','宝马','越野'),(4,'张三','18845854892','522427197504123754','1788978126@qq.com','苏EUK722','五菱宏光','客车');
 /*!40000 ALTER TABLE `t_car` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-04-29 22:26:09
+-- Dump completed on 2019-06-20 22:06:20

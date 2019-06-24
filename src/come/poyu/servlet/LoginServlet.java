@@ -74,7 +74,7 @@ public class LoginServlet extends HttpServlet {
                     if (list1.equals(userPwd)) {
                         request.setAttribute("userName", request.getParameter("userName"));
                        // request.getRequestDispatcher("jsp/manager/supManager.jsp").forward(request, response);
-                        response.sendRedirect("http://2t51e89377.wicp.vip:58545");
+                        response.sendRedirect("http://localhost:8081");
                     } else {
                         request.setAttribute("name", userName);
                         request.setAttribute("notice", "密码错误！");
